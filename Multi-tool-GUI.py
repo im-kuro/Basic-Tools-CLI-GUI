@@ -590,7 +590,6 @@ def windows_module():
 
 
 # checks os and runs module based off os
-"""
 def check_os():
     system = platform.system()
     try:
@@ -604,5 +603,4 @@ def check_os():
             print("[!] Cant recongnize your OS.")
     except Exception as error_notice:
             print(f"[!] Looks like there was a error with the program, please contact im.kuro.business@gmail.com with the error. ERROR INFO ===> {error_notice}")
-"""
-linux_module()
+check_os()
