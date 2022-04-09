@@ -283,7 +283,7 @@ def linux_module():
             res1 = subprocess.check_output(f"ipconfig", shell=True)
             messagebox.showinfo( "Results", res1)
         def show_interfaces():
-            res1 = subprocess.check_output(f"netsh interface show interface", shell=True)
+            res1 = subprocess.check_output(f"sudo service NetworkManager restart", shell=True)
             messagebox.showinfo( "Results", res1)   
 
         lin_gobuster_frame.forget()
