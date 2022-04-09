@@ -1,7 +1,7 @@
 # NMAP GUI MADE BY @im-kuro
 
 
-import tkinter, subprocess
+import tkinter, subprocess, platform
 from tkinter import messagebox
 from tkinter import *
 from PIL import ImageTk, Image  
